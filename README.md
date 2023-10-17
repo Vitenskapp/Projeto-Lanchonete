@@ -1,2 +1,2 @@
 # Projeto-Lanchonete
-Projeto em grupo realizado para meu curso.
+Projeto em grupo realizado para meu curso. (Em breve uma descrição melhor)
