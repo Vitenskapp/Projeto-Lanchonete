@@ -110,26 +110,42 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 153px 72px;
-    width: 100vw;
-    height: fit-content;
+    width: 100%;
+    height: 700px;
 }
 
 main .cards {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     gap: 24px;
-    grid-template-columns: 1fr 1fr;
 }
 
 /*card Content*/
-.cardPopular h1 {
+.card {
+    cursor: pointer;
+}
+
+.cards article{
+    font-family: 'Khand', Arial, Helvetica, sans-serif;
+    padding: 33px 40px;
     position: absolute;
+    font-weight: normal;
+}
+
+.cards article p{
+    font-size: 18px;
+}
+
+.cards article h1{
+    font-size: 32px;
 }
 
 .cards .otherCards {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: fit-content;
 }
 
 
